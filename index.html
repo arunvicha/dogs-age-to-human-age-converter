@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+    h2{
+        color: blue;
+    }
+    h1{
+        color: red;
+    }
+    body{
+        background-image: url("dog.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+</head>
+
+<!------------------------------------------------------------>
+
+<body>
+<h2 align="center">Dog's age to human age converter</h2>
+<h1 id="demo"></h1>
+</body>
+
+<!------------------------------------------------------------>
+
+<script>
+    var dogAge=parseInt(prompt("Enter your dog's age:"));
+    var humanAge=(dogAge-2)*4+21;
+    document.getElementById("demo").innerHTML ="your dog's age is "+"'"+humanAge+"'"+" when compared to the humanage";
+    </script>
+
+<!------------------------------------------------------------>
+
+
+</html> 
